@@ -7,6 +7,8 @@
 const number = 12334
 console.log(number)
 console.log( "not a number" / 2 )
+console.log(NaN**3)
+console.log(NaN**0)
 
 /*
 2. string : A string in JavaScript must be surrounded by quotes.
@@ -68,3 +70,11 @@ console.log(obj)
 
 const array = [1,2,3,4,5]
 console.log(array)
+
+
+// example
+let name1 = "Ilya";
+
+console.log( `hello ${1}` ); // ?
+console.log( `hello ${"name1"}` ); // ?
+console.log( `hello ${name1}` ); // ?
