@@ -19,6 +19,9 @@ function myPolyFillFilter(arr,cb){
     return newArr;
 }
 
+
+// This method is creating a new array called newArr by iterating over an existing array called arr. For each element in arr, it checks if the callback function cb returns true for that element. If it does, the element is added to the newArr. Finally, the newArr is returned, containing only the elements that passed the callback function's test.
+
 function isEven(x){
     if(x%2===0){
         return x
