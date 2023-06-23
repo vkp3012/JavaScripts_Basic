@@ -9,3 +9,9 @@ const doubledNumbers = numbers.map(function(number) {
 });
 
 console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+
+// In this example, the map() function takes a function that multiplies each number in the numbers array by 2. The map() function then returns a new array with the modified values, which is stored in the doubledNumbers variable.
+
+
+
+

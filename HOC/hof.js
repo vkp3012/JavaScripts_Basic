@@ -1,4 +1,4 @@
-// A higher-order function is a function that takes one or more functions as arguments, or returns a function as its result. Higher-order functions are a fundamental concept in functional programming, and they allow for more flexible and reusable code.
+// A higher-order function is a function that takes one or more functions asP arguments, or returns a function as its result. Higher-order functions are a fundamental concept in functional programming, and they allow for more flexible and reusable code.
 
 // In JavaScript, some examples of higher-order functions include:
 
