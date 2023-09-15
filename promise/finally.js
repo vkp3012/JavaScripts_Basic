@@ -1,4 +1,5 @@
 var loader = true
+
 function test(){
     return new Promise(function(resolved,reject){
         let a = 1+1;
