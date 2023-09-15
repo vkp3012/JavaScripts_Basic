@@ -21,3 +21,22 @@ function square(x){
 }
 
 console.log(myPolyFillMap(arr,square))
+
+
+// create a new PolyFill map function
+let arr1 = [6,7,8,9]
+function myPolyFillMapAdd(arr2,cb){
+    // create a new empty array
+    let newArr = [];
+    for(let i = 0;i<arr2.length;i++){
+        newArr.push(cb(arr2[i]));
+    }
+    return newArr;
+}
+
+//callback function
+function add(x){
+    return x+x;
+}
+
+console.log(myPolyFillMapAdd(arr1,add))
